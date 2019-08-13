@@ -1,0 +1,64 @@
+.jd{
+	width: 850px;
+	margin: 2px auto;
+}
+.jd .header{
+	background: blue;
+	padding:10px;
+	text-align: center;
+}
+.jd .menu{
+	background: yellow;
+}
+.jd .menu ul{
+	background: yellow;
+	overflow: hidden;
+}
+.jd .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 25px;
+}
+.lk{
+	display: flex;
+}
+.lk a{
+	text-decoration: none;
+	display: block;
+}
+.lk .active{
+	position: absolute;
+}
+.lk .active li{
+	position: relative;
+	display: none;
+	color:white;
+	background-color: black;
+}
+.lk :hover > .active li{
+	display: inline-block;
+}
+.badan{
+	height: 450px;
+}
+.jd .badan .sidebar{
+	background: red;
+	float: left;	
+	width: 23%;
+	height: 100%;
+	text-align: center;
+}
+.jd .badan .content{
+	background: green;
+	float: right;
+	height: 100%;
+	width: 75%;
+	text-align: center;	
+}
+.jd .footer{
+	width: 810px;
+	margin: 10px 0px 0px 0px;
+	padding: 22px;
+	background: aqua;
+	text-align: center;
+}
